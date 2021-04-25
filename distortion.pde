@@ -7,7 +7,7 @@ int dimensioneDistortY = 3000;// displacement size
 int ratio = 16; // the lower, the more distortion you have
 
 void setup() {
-  size(600, 800, FX2D);
+  size(700, 900, FX2D);
   img = loadImage("img.jpg");
   store = loadImage("img.jpg");
   displacement = loadImage("noise.jpg");
